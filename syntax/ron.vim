@@ -8,7 +8,7 @@ endif
 
 syn keyword basicLanguageKeywords Some None
 
-syn region ronStruct start="(" end=")" fold transparent
-syn region ronSeq start="[" end="]" fold transparent
-syn region ronMap start="{" end="}" fold transparent
+syn region ronStruct start="(" end=")" transparent fold
+syn region ronSeq start="\[" end="\]" transparent fold
+syn region ronMap start="{" end="}" transparent fold
 
