@@ -8,5 +8,4 @@ If you don't want to use some plugin manager, you can simply drag these files in
 
 ### Vundle
 
-Simply add `Plugin 'rust-lang/rust.vim'` to your `.vimrc` file. Next time you execute `:PluginInstall`, syntax highlighting for RON should be installed.
-
+Simply add `Plugin 'ron-rs/ron.vim'` to your `.vimrc` file. Next time you execute `:PluginInstall`, syntax highlighting for RON should be installed.
