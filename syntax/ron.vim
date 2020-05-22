@@ -15,6 +15,7 @@ syn region ronMap start="{" end="}" transparent fold
 syn region ronAttribute start="#!\?\[" end="\]"
 
 syn region ronString oneline start=/"/ skip=/\\\\\|\\"/ end=/"/
+syn region ronString start='r\z(#*\)"' end='"\z1'
 
 syn match ronIdentifier /\<[A-Z]\w*\s*\ze(/ display
 
@@ -30,6 +31,7 @@ syn match ronBoolean /\<\%(true\|false\)\>/ display
 syn keyword ronTodo TODO FIXME XXX BUG contained
 
 syn match ronComment /\/\/.*/ contains=ronTodo
+syn region ronComment start="/\*" end="\*/" fold extend contains=ronTodo,ronCommentB
 
 hi def link ronString String
 hi def link ronInteger Number
