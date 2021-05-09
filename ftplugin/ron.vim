@@ -12,7 +12,7 @@ setlocal commentstring=//\ %s
 " To disable add the this line to your vim config
 " let g:ron_recommended_style = 0
 if get(g:, 'ron_recommended_style', 1)
-    setlocal tabstop=8 shiftwidth=4 softtabstop=4 expandtab
+    setlocal shiftwidth=4 softtabstop=4 expandtab
 endif
 
 " Add NERDCommenter delimiters
