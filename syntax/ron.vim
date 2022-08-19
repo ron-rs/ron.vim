@@ -1,6 +1,7 @@
 " Syntax file for RON
 " RON: Rusty Object Notation
 " Author: Thomas Schaller <torkleyy@gmail.com>
+" License: MIT (Expat), see https://github.com/ron-rs/ron.vim/blob/master/LICENSE
 
 if exists("b:current_syntax")
   finish
